@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     <section className="hero-section">
       <div className="content">
         <h1>
-          Hi, I'm Awais<span className="highlight">!</span>
+          Hi, I&apos;m Awais<span className="highlight">!</span>
         </h1>
         <p className="subtitle">
           A passionate <span className="bold">Web Developer</span> dedicated to building modern, user-friendly, and scalable web applications.

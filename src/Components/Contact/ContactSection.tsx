@@ -29,7 +29,7 @@ const ContactSection: React.FC = () => {
 
         {/* Subtitle */}
         <p className="contact-subtitle">
-          Feel free to reach out for collaborations, feedback, or just a chat! I'd love to connect.
+          Feel free to reach out for collaborations, feedback, or just a chat! I&apos;d love to connect.
         </p>
 
         {/* Contact Form */}

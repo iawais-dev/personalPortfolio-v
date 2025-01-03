@@ -9,7 +9,7 @@ const AboutSection = () => {
         <div className="about-content">
           <h2 className="about-title">About Me</h2>
           <p className="about-text">
-            I'm a passionate <span className="highlight">Web Developer</span> dedicated to creating responsive, scalable, and user-friendly websites.
+            I&apos;m a passionate <span className="highlight">Web Developer</span> dedicated to creating responsive, scalable, and user-friendly websites.
             With a strong focus on <span className="highlight">modern web technologies</span>, I specialize in building clean and interactive web applications that provide seamless user experiences.
           </p>
         </div>
