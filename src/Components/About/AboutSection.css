@@ -1,0 +1,122 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: linear-gradient(to right, #9333ea, #3b82f6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    min-height: 100vh;
+  }
+  
+  .about-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .highlight {
+    font-weight: 600;
+  }
+  
+  /* Education Section */
+  .education-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .education-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  
+  .education-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .education-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .education-card {
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Table for Desktop View */
+  .education-desktop {
+    display: none;
+  }
+  
+  .education-table {
+    min-width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+  }
+  
+  .education-table th,
+  .education-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 0.75rem;
+  }
+  
+  .education-table th {
+    background: #9333ea;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 640px) {
+    .education-mobile {
+      display: none;
+    }
+  
+    .education-desktop {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .about-text {
+      font-size: 1.25rem;
+    }
+  
+    .education-container {
+      padding: 3rem 1rem;
+    }
+  }
+  

@@ -1,0 +1,103 @@
+/* Container styles */
+.skills-container {
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+}
+
+.content-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title styles */
+.skills-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+/* Responsive Grid styles */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+@media (min-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 8fr);
+    }
+}
+@media (min-width: 1424px) {
+    .skills-grid {
+        grid-template-columns: repeat(4, 8fr);
+    }
+}
+
+/* Card styles */
+.skill-card {
+    width: 300px !important;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    font-size: 4rem;
+    color: white;
+}
+
+/* Skill title styles */
+.skill-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+/* Progress bar styles */
+.progress-bar {
+    width: 100%;
+    background-color: #e2e8f0;
+    border-radius: 1rem;
+    height: 10px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* Skill-specific progress widths and background colors */
+.html { background-color: #fbbf24; width: 90%; }
+.css { background-color: #3b82f6; width: 90%; }
+.js { background-color: #f59e0b; width: 80%; }
+.react { background-color: #2563eb; width: 75%; }
+.node { background-color: #14b8a6; width: 60%; }
+.github { background-color: #4b5563; width: 70%; }
+.gsap { background-color: #10b981; width: 47%; }
+.threejs { background-color: #9333ea; width: 37%; }
